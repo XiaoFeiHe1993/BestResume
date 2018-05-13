@@ -6,11 +6,11 @@ export default class AboutMe extends Component {
     }
 
     render() {
-        return (<div className="section clearfix">
+        return (<div className="section">
             <h4 style={{color:'#ffffff'}}>关于我</h4>
 
-            <div className='about-parent clearfix'>
-                <div className='about-content clearfix'>
+            <div className='about-parent'>
+                <div className='about-content'>
                     <ul>
                         <li><span>学校：</span>浙江工业大学</li>
                         <li><span>专业：</span>软件工程</li>
@@ -20,7 +20,7 @@ export default class AboutMe extends Component {
                         <li><span>兴趣爱好：</span>阅读、军事、游戏、动漫</li>
                     </ul>
                 </div>
-                <div className='about-right clearfix'>
+                <div className='about-right' style={{zIndex:'10',position:'relative'}}>
                     <div className='about-gold'>
                         <h1>证书奖项</h1>
                         <div>

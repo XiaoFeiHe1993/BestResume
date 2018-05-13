@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import AvatarEditor from 'react-avatar-editor';
+import QueueAnim from 'rc-queue-anim';
 
 export default class HelloPage extends Component {
     constructor(props) {

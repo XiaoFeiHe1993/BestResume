@@ -3,3 +3,18 @@
   font: 50px "Microsoft Yahei";
   color: #fff;
 }
+
+.clear-fix {
+  display: table;
+}
+
+.clear-fix:before, .clear-fix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.clear-fix {
+  _zoom: 1;
+}
