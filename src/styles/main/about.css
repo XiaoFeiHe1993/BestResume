@@ -1,0 +1,12 @@
+.about-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px; }
+
+.about-content {
+  width: 500px;
+  text-align: left;
+  display: inline-block; }
+
+/*# sourceMappingURL=about.css.map */

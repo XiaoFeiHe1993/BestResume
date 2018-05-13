@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAc;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM",
+"sources": ["time.scss"],
+"names": [],
+"file": "time.css"
+}

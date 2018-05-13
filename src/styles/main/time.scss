@@ -1,0 +1,48 @@
+.time-content {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-title {
+  padding: 10px 0px 10px 0px;
+}
+
+.time-describe {
+  padding: 0px 0px 10px 0px;
+}
+
+.arrow-box {
+  margin-left: 40px;
+  position: relative;
+  background: #88b7d5;
+  border: 2px solid #c2e1f5;
+  border-radius: 5px;
+}
+
+.arrow-box:after, .arrow-box:before {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow-box:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-right-color: #88b7d5;
+  border-width: 20px;
+  margin-top: -20px;
+}
+
+.arrow-box:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-right-color: #c2e1f5;
+  border-width: 23px;
+  margin-top: -23px;
+}

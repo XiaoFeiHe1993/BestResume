@@ -1,0 +1,128 @@
+.about-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.about-content {
+  width: 500px;
+  font-size: 20px;
+  text-align: left;
+  display: inline-block;
+  margin-right: 100px;
+
+  li {
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #ffffff;
+    margin: 20px 0px 0px 0px;
+  }
+
+  span {
+    color: #C23531;
+  }
+}
+
+.about-right {
+  width: 500px;
+  font-size: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+
+  .about-gold {
+    width: 400px;
+    background-color: #383E4B;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+
+    h1 {
+      font-size: 20px;
+      padding: 12.5px 0px 0px 10px;
+      color: #e1e1e1;
+    }
+
+    span {
+      width: 25px;
+      height: 25px;
+      text-align: center;
+      display: inline-block;
+      color: #EE6854;
+      background-color: #ffffff;
+      border-radius: 25px;
+      margin-right: 10px;
+    }
+
+    .li1 {
+      background-color: #CF9685;
+      padding: 12.5px 0px 12.5px 10px;
+      transition: All 0.5s ease-in-out;
+      -webkit-transition: All 0.5s ease-in-out;
+      -moz-transition: All 0.5s ease-in-out;
+      -o-transition: All 0.5s ease-in-out;
+    }
+
+    .li1:hover {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+    }
+
+    .li2 {
+      background-color: #EE6854;
+      padding: 12.5px 0px 12.5px 10px;
+      transition: All 0.5s ease-in-out;
+      -webkit-transition: All 0.5s ease-in-out;
+      -moz-transition: All 0.5s ease-in-out;
+      -o-transition: All 0.5s ease-in-out;
+    }
+
+    .li2:hover {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+    }
+
+    .li3 {
+      background-color: #C8423B;
+      padding: 12.5px 0px 12.5px 10px;
+      transition: All 0.5s ease-in-out;
+      -webkit-transition: All 0.5s ease-in-out;
+      -moz-transition: All 0.5s ease-in-out;
+      -o-transition: All 0.5s ease-in-out;
+    }
+
+    .li3:hover {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+    }
+
+    .li4 {
+      background-color: #8A2729;
+      padding: 12.5px 0px 12.5px 10px;
+      transition: All 0.5s ease-in-out;
+      -webkit-transition: All 0.5s ease-in-out;
+      -moz-transition: All 0.5s ease-in-out;
+      -o-transition: All 0.5s ease-in-out;
+    }
+
+    .li4:hover {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+    }
+  }
+}

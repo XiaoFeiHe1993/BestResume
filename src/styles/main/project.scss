@@ -1,0 +1,39 @@
+.project-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.project-card-content {
+  text-align: left;
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+}
+
+.project-a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.project-a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.project-a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.project-img {
+  width: 400px;
+  height: 711px;
+  display: block;
+}
+
+.project-city {
+  width: 960px;
+  height: 540px;
+  display: block;
+}
