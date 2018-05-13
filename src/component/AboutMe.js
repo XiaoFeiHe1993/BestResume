@@ -20,7 +20,7 @@ export default class AboutMe extends Component {
                         <li><span>兴趣爱好：</span>阅读、军事、游戏、动漫</li>
                     </ul>
                 </div>
-                <div className='about-right' style={{zIndex:'10',position:'relative'}}>
+                <div className='about-right' style={{zIndex:'1000'}}>
                     <div className='about-gold'>
                         <h1>证书奖项</h1>
                         <div>

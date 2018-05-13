@@ -3,17 +3,15 @@
   font: 50px "Microsoft Yahei";
   color: #fff; }
 
-.clear-fix {
-  display: table; }
-
 .clear-fix:before, .clear-fix:after {
   content: "";
-  display: block;
-  height: 0;
+  display: table; }
+
+.clear-fix:after {
   clear: both; }
 
 .clear-fix {
-  _zoom: 1; }
+  zoom: 1; }
 
 .contact-thank {
   color: #ffffff;

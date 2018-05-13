@@ -4,17 +4,15 @@
   color: #fff;
 }
 
-.clear-fix {
+.clear-fix:before, .clear-fix:after {
+  content: "";
   display: table;
 }
 
-.clear-fix:before, .clear-fix:after {
-  content: "";
-  display: block;
-  height: 0;
+.clear-fix:after {
   clear: both;
 }
 
 .clear-fix {
-  _zoom: 1;
+  zoom: 1;
 }
