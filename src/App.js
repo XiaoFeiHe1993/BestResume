@@ -15,11 +15,16 @@ export default class App extends Component {
         // $('#dowebok').fullpage({
         //     sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90']
         // });
+
+        // 设置transform属性，避免其对z-index属性造成影响
+        setTimeout(function () {
+            document.getElementById('dowebok').style.transform = 'none';
+        }, 1000);
     }
 
     render() {
         return (
-            <div id="dowebok">
+            <div id="dowebok" style={{transform:'none'}}>
                 {/*<HelloPage />*/}
 
                 <AboutMe />
@@ -30,7 +35,7 @@ export default class App extends Component {
 
                 <TimePage />
 
-                <ContactPage/>
+                {/*<ContactPage/>*/}
             </div>
         );
     }
