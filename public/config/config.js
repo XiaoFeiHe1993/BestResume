@@ -1,5 +1,5 @@
 var config = {
-    "RequestBaseUrl": "http://resume.akamei.cn",
+    "RequestBaseUrl": "http://123.207.183.250:1001",
 };
 
 (function (global, factory) {

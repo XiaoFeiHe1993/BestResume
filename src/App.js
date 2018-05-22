@@ -20,7 +20,7 @@ export default class App extends Component {
     render() {
         return (
             <div id="dowebok">
-                {/*<HelloPage />*/}
+                <HelloPage />
 
                 <AboutMe />
 
