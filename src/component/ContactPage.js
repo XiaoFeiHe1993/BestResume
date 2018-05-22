@@ -14,7 +14,7 @@ export default class ContactPage extends Component {
         return (<div className="section">
             <h1 className='contact-thank'>Thanks for your visit !</h1>
 
-            <div className='contact-bottom'>
+            <div className='contact-bottom' style={{position:'relative',zIndex:'10'}}>
                 <div className='contact-address' onClick={this._openModal.bind(this, 'we_chat')}><img src={window.config.RequestBaseUrl+"/public/img/icon_we_chat.png"} title='微信' className='contact-icon-bottom'/></div>
                 <div className='contact-address'><a className='contact-a' href='mailto:hexiaofei.best@qq.com'><img src={window.config.RequestBaseUrl+"/public/img/icon_mail.png"} title='邮箱' className='contact-icon-bottom'/></a></div>
                 <div className='contact-address'><a className='contact-a' href='https://github.com/JackFei' target='_blank'><img src={window.config.RequestBaseUrl+"/public/img/icon_github.png"} title='Github' className='contact-icon-bottom'/></a></div>
