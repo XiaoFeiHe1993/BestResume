@@ -1,5 +1,5 @@
 var config = {
-    "RequestBaseUrl": "http://123.207.183.250:1001",
+    "RequestBaseUrl": "http://123.207.183.250:105",
 };
 
 (function (global, factory) {
