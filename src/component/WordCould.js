@@ -157,6 +157,14 @@ export default class WordCould extends Component {
                     name: "PubSub",
                     value: 2000,
                     itemStyle: this._createRandomItemStyle()
+                },{
+                    name: "Express",
+                    value: 2000,
+                    itemStyle: this._createRandomItemStyle()
+                },{
+                    name: "Koa",
+                    value: 2000,
+                    itemStyle: this._createRandomItemStyle()
                 }, {
                     name: "Echarts",
                     value: 1500,
@@ -167,6 +175,14 @@ export default class WordCould extends Component {
                     itemStyle: this._createRandomItemStyle()
                 }, {
                     name: "Flex",
+                    value: 1500,
+                    itemStyle: this._createRandomItemStyle()
+                },{
+                    name: "SVG",
+                    value: 1500,
+                    itemStyle: this._createRandomItemStyle()
+                },{
+                    name: "Three.js",
                     value: 1500,
                     itemStyle: this._createRandomItemStyle()
                 }, {

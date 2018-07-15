@@ -14,7 +14,7 @@ export default class TimePage extends Component {
                 <Timeline style={{width: '50%'}}>
                     <Timeline.Item>
                         <div className='time-item'>
-                            2017年6月由于曼拓经营不善，开发团队由鹭栖科技有限公司接管。期间开发了鹭栖公司官网、下城政务Web端。
+                            2017年6月由于曼拓经营不善，开发团队由鹭栖科技有限公司接管。期间开发了鹭栖公司官网、下城政务平台、下城政协Web端。
                         </div>
                     </Timeline.Item>
                     <Timeline.Item>
