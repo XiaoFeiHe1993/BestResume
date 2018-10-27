@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import ContactPage from './component/ContactPage';
-import TimePage from './component/TimePage';
-import WordCould from './component/WordCould';
-import ProjectPage from './component/ProjectPage';
-import HelloPage from './component/HelloPage';
-import AboutMe from './component/AboutMe';
+import ContactPage from './ContactPage';
+import TimePage from './TimePage';
+import WordCould from './WordCould';
+import ProjectPage from './ProjectPage';
+import HelloPage from './HelloPage';
+import AboutMe from './AboutMe';
 
 export default class App extends Component {
     constructor(props) {

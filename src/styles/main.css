@@ -261,10 +261,29 @@
 
 .hello-book {
   position: fixed;
-  right: 30px;
+  right: 50px;
   top: 30px;
   font-size: 24px;
-  opacity: 0.3; }
+  opacity: 0.8; }
+
+.hello-book {
+  color: white;
+  text-decoration: none; }
+
+.book-area {
+  height: 100%;
+  padding: 5% 20%;
+  background-color: #28304B; }
+
+.book-title {
+  margin-bottom: 50px; }
+
+.book-img {
+  width: 120px;
+  height: 160px; }
+
+.book-name {
+  padding-top: 10px; }
 
 #c_n9 {
   pointer-events: none; }

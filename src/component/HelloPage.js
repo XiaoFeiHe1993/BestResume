@@ -12,9 +12,9 @@ export default class HelloPage extends Component {
 
     render() {
         return (<div className="section" id="particles-js">
-            {/*<div className="hello-book">*/}
-                {/*<div>书籍</div>*/}
-            {/*</div>*/}
+            <div className="hello-book">
+                <a href="/book" className="hello-book">书籍</a>
+            </div>
             <div className='hello-parent'>
                 <div className='hello-left'>
                     <div>用代码改变世界，用双手改变人生。</div>
