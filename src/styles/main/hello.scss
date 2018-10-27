@@ -1,12 +1,20 @@
 .hello-parent {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
 }
 
 .hello-left {
-  width: 600px;
-  font-size: 35px;
-  display: inline-block;
+    width: 600px;
+    font-size: 35px;
+    display: inline-block;
+}
+
+.hello-book {
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    font-size: 24px;
+    opacity: 0.3;
 }

@@ -63,9 +63,6 @@
   margin: 0px 10px 0px 10px;
   -webkit-transition: -webkit-transform 1s ease-in; }
 
-@keyframes rotateImg {
-  100% {
-    -webkit-transform: rotateY(360deg); } }
 .contact-icon-bottom:hover {
   /*-webkit-transform: rotateY( 360deg)*/
   animation: rotateImg 1s; }
@@ -261,5 +258,15 @@
   width: 600px;
   font-size: 35px;
   display: inline-block; }
+
+.hello-book {
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  font-size: 24px;
+  opacity: 0.3; }
+
+#c_n9 {
+  pointer-events: none; }
 
 /*# sourceMappingURL=main.css.map */

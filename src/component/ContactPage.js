@@ -19,7 +19,7 @@ export default class ContactPage extends Component {
                 <div className='contact-address'><a className='contact-a' href='mailto:hexiaofei.best@qq.com'><img src={window.config.RequestBaseUrl+"/public/img/icon_mail.png"} title='邮箱' className='contact-icon-bottom'/></a></div>
                 <div className='contact-address'><a className='contact-a' href='https://github.com/JackFei' target='_blank'><img src={window.config.RequestBaseUrl+"/public/img/icon_github.png"} title='Github' className='contact-icon-bottom'/></a></div>
                 <div className='contact-address' onClick={this._openModal.bind(this, 'public_number')}><img src={window.config.RequestBaseUrl+"/public/img/icon_we_chat.png"} title='个人公众号' className='contact-icon-bottom'/></div>
-                <div className='contact-address'><a className='contact-a' href='https://github.com/JackFei' target='_blank'><img src={window.config.RequestBaseUrl+"/public/img/icon_download.png"} title='下载简历' className='contact-icon-bottom'/></a></div>
+                <div className='contact-address'><a className='contact-a' href='https://github.com/JackFei/BestResume/raw/master/%E7%AE%80%E5%8E%86/%E5%92%8C%E8%82%96%E9%A3%9E-%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88-15757116135.docx' target='_blank'><img src={window.config.RequestBaseUrl+"/public/img/icon_download.png"} title='下载简历' className='contact-icon-bottom'/></a></div>
             </div>
 
             <Modal title={null} visible={this.state.weChat} closable={false} footer={null} width={'348px'} maskClosable={true} onCancel={this._closeModal.bind(this, 'we_chat')}

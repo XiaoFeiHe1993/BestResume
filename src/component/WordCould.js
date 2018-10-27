@@ -83,7 +83,7 @@ export default class WordCould extends Component {
                     itemStyle: this._createRandomItemStyle()
                 }, {
                     name: "Android",
-                    value: 6000,
+                    value: 5000,
                     itemStyle: this._createRandomItemStyle()
                 }, {
                     name: "React",
@@ -91,6 +91,10 @@ export default class WordCould extends Component {
                     itemStyle: this._createRandomItemStyle()
                 }, {
                     name: "Vue",
+                    value: 6000,
+                    itemStyle: this._createRandomItemStyle()
+                }, {
+                    name: "H5",
                     value: 5000,
                     itemStyle: this._createRandomItemStyle()
                 }, {
@@ -127,7 +131,7 @@ export default class WordCould extends Component {
                     itemStyle: this._createRandomItemStyle()
                 }, {
                     name: "小程序",
-                    value: 2000,
+                    value: 5000,
                     itemStyle: this._createRandomItemStyle()
                 }, {
                     name: "Github",
