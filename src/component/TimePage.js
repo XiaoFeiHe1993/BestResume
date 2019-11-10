@@ -14,7 +14,12 @@ export default class TimePage extends Component {
                 <Timeline style={{width: '50%'}}>
                     <Timeline.Item>
                         <div className='time-item'>
-                            2018年8月进入丁香园，现在担任丁香园ToD前端开发。
+                            2019年9月进入依图科技，现在担任依图医疗大数据事业部前端开发。
+                        </div>
+                    </Timeline.Item>
+                    <Timeline.Item>
+                        <div className='time-item'>
+                            2018年8月进入丁香园，担任丁香园ToD前端开发。
                         </div>
                     </Timeline.Item>
                     <Timeline.Item>
