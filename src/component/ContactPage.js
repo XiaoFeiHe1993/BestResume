@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {Modal} from 'antd';
+import React, { Component } from 'react';
+import { Modal } from 'antd';
 
 export default class ContactPage extends Component {
     constructor(props) {
@@ -14,38 +14,54 @@ export default class ContactPage extends Component {
         return (<div className="section">
             <h1 className='contact-thank'>Thanks for your visit !</h1>
 
-            <div className='contact-bottom' style={{position:'absolute',zIndex:'10'}}>
-                <div className='contact-address' onClick={this._openModal.bind(this, 'we_chat')}><img src={window.config.RequestBaseUrl+"/public/img/icon_we_chat.png"} title='微信' className='contact-icon-bottom'/></div>
-                <div className='contact-address'><a className='contact-a' href='mailto:hexiaofei.best@qq.com'><img src={window.config.RequestBaseUrl+"/public/img/icon_mail.png"} title='邮箱' className='contact-icon-bottom'/></a></div>
-                <div className='contact-address'><a className='contact-a' href='https://github.com/JackFei' target='_blank'><img src={window.config.RequestBaseUrl+"/public/img/icon_github.png"} title='Github' className='contact-icon-bottom'/></a></div>
-                <div className='contact-address' onClick={this._openModal.bind(this, 'public_number')}><img src={window.config.RequestBaseUrl+"/public/img/icon_we_chat.png"} title='个人公众号' className='contact-icon-bottom'/></div>
-                <div className='contact-address'><a className='contact-a' href='https://github.com/JackFei/BestResume/raw/master/%E7%AE%80%E5%8E%86/%E5%92%8C%E8%82%96%E9%A3%9E-%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88-15757116135.docx' target='_blank'><img src={window.config.RequestBaseUrl+"/public/img/icon_download.png"} title='下载简历' className='contact-icon-bottom'/></a></div>
+            <div className='contact-bottom' style={{ position: 'absolute', zIndex: '10' }}>
+                <div className='contact-address' onClick={this._openModal.bind(this, 'we_chat')}>
+                    <img src={require("../assets/img/icon_we_chat.png")} title='微信' className='contact-icon-bottom' />
+                </div>
+                <div className='contact-address'>
+                    <a className='contact-a' href='mailto:hexiaofei.best@qq.com'>
+                        <img src={require("../assets/img/icon_mail.png")} title='邮箱' className='contact-icon-bottom' />
+                    </a>
+                </div>
+                <div className='contact-address'>
+                    <a className='contact-a' href='https://github.com/XiaoFeiHe1993' target='_blank'>
+                        <img src={require("../assets/img/icon_github.png")} title='Github' className='contact-icon-bottom' />
+                    </a>
+                </div>
+                <div className='contact-address' onClick={this._openModal.bind(this, 'public_number')}>
+                    <img src={require("../assets/img/icon_we_chat.png")} title='个人公众号' className='contact-icon-bottom' />
+                </div>
+                <div className='contact-address'>
+                    <a className='contact-a' href='' target='_blank'>
+                        <img src={require("../assets/img/icon_download.png")} title='下载简历' className='contact-icon-bottom' />
+                    </a>
+                </div>
             </div>
 
             <Modal title={null} visible={this.state.weChat} closable={false} footer={null} width={'348px'} maskClosable={true} onCancel={this._closeModal.bind(this, 'we_chat')}
-                   wrapClassName="vertical-center-modal">
-                <img src={window.config.RequestBaseUrl+"/public/img/icon_weixin_friend.jpg"} width='300px' height='300px'/>
+                wrapClassName="vertical-center-modal">
+                <img src={require("../assets/img/icon_weixin_friend.jpg")} width='300px' height='300px' />
             </Modal>
             <Modal title={null} visible={this.state.publicNumber} closable={false} footer={null} width={'348px'} maskClosable={true} onCancel={this._closeModal.bind(this, 'public_number')}
-                   wrapClassName="vertical-center-modal">
-                <img src={window.config.RequestBaseUrl+"/public/img/icon_weixin_public.jpg"} width='300px' height='300px'/>
+                wrapClassName="vertical-center-modal">
+                <img src={require("../assets/img/icon_weixin_public.jpg")} width='300px' height='300px' />
             </Modal>
         </div>)
     }
 
     _openModal(type) {
-        if(type === 'we_chat') {
-            this.setState({weChat: true});
-        } else if(type === 'public_number') {
-            this.setState({publicNumber: true});
+        if (type === 'we_chat') {
+            this.setState({ weChat: true });
+        } else if (type === 'public_number') {
+            this.setState({ publicNumber: true });
         }
     }
 
     _closeModal(type) {
-        if(type === 'we_chat') {
-            this.setState({weChat: false});
-        } else if(type === 'public_number') {
-            this.setState({publicNumber: false});
+        if (type === 'we_chat') {
+            this.setState({ weChat: false });
+        } else if (type === 'public_number') {
+            this.setState({ publicNumber: false });
         }
     }
 }

@@ -48,7 +48,7 @@ export default class ProjectPage extends Component {
                         </Card>
                     </a>
                 </div>
-                <div className='project-card-content' onClick={this._openModal.bind(this, 'callProject')}>
+                <div className='project-card-content'>
                     <a className='project-a'>
                         <Card title="1Call(Android)" style={{width: 300}}>
                             <p>1.MVC+Recyclerview+RxJava</p>
@@ -61,7 +61,7 @@ export default class ProjectPage extends Component {
             </div>
             <div className='project-parent' style={{position:'relative',zIndex:'10'}}>
                 <div className='project-card-content'>
-                    <a href='https://github.com/JackFei/QQReader' target='_blank' className='project-a'>
+                    <a href='https://github.com/XiaoFeiHe1993/QQReader' target='_blank' className='project-a'>
                         <Card title="QQ阅读小程序Demo" style={{width: 300}}>
                             <p>1.仿QQ阅读的小程序Demo</p>
                             <p>2.学习小程序基本组件</p>
@@ -87,39 +87,39 @@ export default class ProjectPage extends Component {
                 <Modal title={null} visible={this.state.dataProject} width={'448px'} height={'720px'} closable={false} footer={null}  maskClosable={true} onCancel={this._closeModal.bind(this, 'dataProject')}
                        wrapClassName="vertical-center-modal">
                     <Scrollbars style={{width:400, height:720}} onScroll={this._handleScroll.bind(this)}>
-                        <img src={window.config.RequestBaseUrl+"/public/img/icon_data_1.png"} className="project-img"/>
-                        <img src={window.config.RequestBaseUrl+"/public/img/icon_data_2.png"} className="project-img"/>
-                        <img src={window.config.RequestBaseUrl+"/public/img/icon_data_3.png"} className="project-img"/>
-                        <img src={window.config.RequestBaseUrl+"/public/img/icon_data_4.png"} className="project-img"/>
-                        <img src={window.config.RequestBaseUrl+"/public/img/icon_data_8.png"} className="project-img"/>
-                        <img src={window.config.RequestBaseUrl+"/public/img/icon_data_6.png"} className="project-img"/>
-                        <img src={window.config.RequestBaseUrl+"/public/img/icon_data_7.png"} className="project-img"/>
-                        <img src={window.config.RequestBaseUrl+"/public/img/icon_data_5.png"} className="project-img"/>
+                        <img src={require("../assets/screen/xcdata/icon_data_1.png")} className="project-img"/>
+                        <img src={require("../assets/screen/xcdata/icon_data_2.png")} className="project-img"/>
+                        <img src={require("../assets/screen/xcdata/icon_data_3.png")} className="project-img"/>
+                        <img src={require("../assets/screen/xcdata/icon_data_4.png")} className="project-img"/>
+                        <img src={require("../assets/screen/xcdata/icon_data_8.png")} className="project-img"/>
+                        <img src={require("../assets/screen/xcdata/icon_data_6.png")} className="project-img"/>
+                        <img src={require("../assets/screen/xcdata/icon_data_7.png")} className="project-img"/>
+                        <img src={require("../assets/screen/xcdata/icon_data_5.png")} className="project-img"/>
                     </Scrollbars>
                 </Modal>
             </div>
             <Modal title={null} visible={this.state.callProject} width={'448px'} height={'720px'} closable={false} footer={null} maskClosable={true} onCancel={this._closeModal.bind(this, 'callProject')}
                    wrapClassName="vertical-center-modal">
                 <Scrollbars style={{width:400, height:720}} onScroll={this._handleScroll.bind(this)}>
-                    <img src={window.config.RequestBaseUrl+"/public/img/icon_1call_1.png"} className="project-img"/>
-                    <img src={window.config.RequestBaseUrl+"/public/img/icon_1call_2.png"} className="project-img"/>
-                    <img src={window.config.RequestBaseUrl+"/public/img/icon_1call_3.png"} className="project-img"/>
-                    <img src={window.config.RequestBaseUrl+"/public/img/icon_1call_4.png"} className="project-img"/>
-                    <img src={window.config.RequestBaseUrl+"/public/img/icon_1call_5.png"} className="project-img"/>
-                    <img src={window.config.RequestBaseUrl+"/public/img/icon_1call_6.png"} className="project-img"/>
-                    <img src={window.config.RequestBaseUrl+"/public/img/icon_1call_7.png"} className="project-img"/>
-                    <img src={window.config.RequestBaseUrl+"/public/img/icon_1call_8.png"} className="project-img"/>
-                    <img src={window.config.RequestBaseUrl+"/public/img/icon_1call_9.png"} className="project-img"/>
-                    <img src={window.config.RequestBaseUrl+"/public/img/icon_1call_10.png"} className="project-img"/>
-                    <img src={window.config.RequestBaseUrl+"/public/img/icon_1call_11.png"} className="project-img"/>
+                    <img src={require("../assets/screen/1call/icon_1call_1.png")} className="project-img"/>
+                    <img src={require("../assets/screen/1call/icon_1call_2.png")} className="project-img"/>
+                    <img src={require("../assets/screen/1call/icon_1call_3.png")} className="project-img"/>
+                    <img src={require("../assets/screen/1call/icon_1call_4.png")} className="project-img"/>
+                    <img src={require("../assets/screen/1call/icon_1call_5.png")} className="project-img"/>
+                    <img src={require("../assets/screen/1call/icon_1call_6.png")} className="project-img"/>
+                    <img src={require("../assets/screen/1call/icon_1call_7.png")} className="project-img"/>
+                    <img src={require("../assets/screen/1call/icon_1call_8.png")} className="project-img"/>
+                    <img src={require("../assets/screen/1call/icon_1call_9.png")} className="project-img"/>
+                    <img src={require("../assets/screen/1call/icon_1call_10.png")} className="project-img"/>
+                    <img src={require("../assets/screen/1call/icon_1call_11.png")} className="project-img"/>
                 </Scrollbars>
             </Modal>
             <Modal title={null} visible={this.state.cityProject} width={'1008px'} height={'540px'} closable={false} footer={null} maskClosable={true} onCancel={this._closeModal.bind(this, 'cityProject')}
                    wrapClassName="vertical-center-modal">
                 <Scrollbars style={{width:1008, height:540}} onScroll={this._handleScroll.bind(this)}>
-                    <img src={window.config.RequestBaseUrl+"/public/img/icon_city_1.png"} className="project-city"/>
-                    <img src={window.config.RequestBaseUrl+"/public/img/icon_city_2.png"} className="project-city" style={{marginTop:20, marginBottom:20}}/>
-                    <img src={window.config.RequestBaseUrl+"/public/img/icon_city_3.png"} className="project-city"/>
+                    <img src={require("../assets/screen/oa/icon_city_1.png")} className="project-city"/>
+                    <img src={require("../assets/screen/oa/icon_city2.png")} className="project-city" style={{marginTop:20, marginBottom:20}}/>
+                    <img src={require("../assets/screen/oa/icon_city_3.png")} className="project-city"/>
                 </Scrollbars>
             </Modal>
         </div>)

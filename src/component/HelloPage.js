@@ -19,8 +19,8 @@ export default class HelloPage extends Component {
                 <div className='hello-left'>
                     <div>用代码改变世界，用双手改变人生。</div>
                     <div style={{marginBottom:'50px'}}>so beautiful，so love。</div>
-                    <AvatarEditor
-                        image={window.config.RequestBaseUrl+"/public/img/icon_header.jpg"}
+                        <AvatarEditor
+                        image={require("../assets/screen/icon_header.jpg")}
                         width={100} height={100}
                         borderRadius={100}
                         color={[40, 48, 75, 1]}
