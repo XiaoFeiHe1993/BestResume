@@ -13,7 +13,8 @@ export default class HelloPage extends Component {
     render() {
         return (<div className="section" id="particles-js">
             <div className="hello-book">
-                <a href="/book" className="hello-book">书籍</a>
+                <a href="/book" className="hello-book" style={{color: 'white'}}>书籍</a>
+                <a href="/city" className="hello-city" style={{marginRight: 100, color: 'white'}}>旅行</a>
             </div>
             <div className='hello-parent'>
                 <div className='hello-left'>
